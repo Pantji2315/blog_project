@@ -1,0 +1,29 @@
+.contact-content {
+    height: 395px;
+    /* background-color: #ADB2D4;  */
+    display: block;
+    margin-top: 12px;
+    padding: 9px;
+    position: relative;
+}
+.contact-content::after{
+    content: "";
+    background-image: url("../img/vecteezy_smartphone-blog-article-creative-paper_10682461-1.jpg");
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: inherit;
+    opacity: 0.20;
+    z-index: -1;
+}
+.content-form{
+margin-left: 110px;
+}
+h2{
+    margin-left: 120px;
+}
+.form-box{
+    padding-left: 120px;
+}
+
+

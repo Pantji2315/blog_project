@@ -1,0 +1,52 @@
+
+:root{
+    --main-bg-color: brown;
+    --main-bg-color1:rgb(110, 215, 198);
+}
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+.form-input{
+    padding: 0px 5px;
+    padding-top: 3px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius:6px;
+    margin: 0 13px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.btn{
+    padding: 0px 20px;
+    padding-top: 3px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn:hover{
+    color:var(--main-bg-color1);
+}
+.font1{
+font-family: Arial, Helvetica, sans-serif;;
+}
+.font2{
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; ;
+}
+.my-2{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.form-box input,textarea{
+    width: 52vw;
+    padding: 10px 6px;
+    margin: 7px 0px;
+}
